@@ -1,4 +1,3 @@
-/* Reset basic styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ body {
     color: #F9F9F9;
 }
 
-/* Header styling */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +21,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Navigation links */
+/* Nav */
 nav a {
     color: #F9F9F9;
     text-decoration: none;
@@ -36,7 +35,7 @@ nav a:hover {
     color: #3C7A4D;
 }
 
-/* Hero section */
+/* Hero */
 .hero {
     text-align: center;
     padding: 70px 20px;
@@ -44,7 +43,7 @@ nav a:hover {
     color: white;
 }
 
-/* Services section */
+/* Services */
 .services {
     padding: 40px 20px;
     text-align: center;
@@ -55,7 +54,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Service card layout */
+/* Service card  */
 .service-card {
     color: white;
     padding: 60px 20px;
@@ -71,7 +70,7 @@ nav a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Card overlays for extra effects */
+/* Card overlays */
 .service-card .overlay {
     position: absolute;
     top: 0;
@@ -97,7 +96,7 @@ nav a:hover {
     background: url('images/snow.avif') center/cover no-repeat;
 }
 
-/* Showcase slider */
+/* Showcase */
 .showcase {
     padding: 50px 0;
     text-align: center;
@@ -125,7 +124,7 @@ nav a:hover {
     100% { transform: translateX(-100%); }
 }
 
-/* Testimonials section */
+/* Testimonials */
 .testimonials {
     padding: 30px 20px;
     background-color: #2E2E2E;
